@@ -6,6 +6,7 @@ ruby '2.7.1'
 group :development, :test do
   gem 'rspec-rails' 
   gem 'shoulda-matchers'
+  gem 'pry'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -26,6 +27,9 @@ gem 'puma', '~> 4.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'active_model_serializers'
+gem 'will_paginate', '~> 3.1.0'
+
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
